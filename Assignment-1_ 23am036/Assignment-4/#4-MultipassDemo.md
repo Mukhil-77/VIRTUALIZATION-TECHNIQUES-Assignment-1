@@ -59,6 +59,8 @@ multipass info mukhil-23am036
 *Fig 5: Default web page accessed via the instance IP address in the browser*
 
 ## Challenges Faced
+![error](error.png)
+
 While working through this assignment, I ran into a networking issue caused by having Cloudflare running on my host machine alongside Multipass. My `sudo apt update` command inside the instance kept timing out, and I had to dig into why the VM couldn't reach the internet even though my host machine was online.
 
 Here's what I found to be the root cause:
